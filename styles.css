@@ -26,4 +26,12 @@ html,body {
     background-color:rgb(0, 0, 0);
     position: relative;
     z-index: 2;
+    color: #fff;
+}
+nav{
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rebeccapurple;
 }
