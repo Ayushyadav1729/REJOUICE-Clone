@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <title>REJOUiCE®</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="main">
         <div id="page1">
             <div id="cursor">
-                <h4>play reel</h4>
+                <h4>Play Reel</h4>
             </div>
             <video autoplay loop muted src="reel-short.mp4"></video>
             <div id="page1-content">
@@ -23,7 +27,39 @@
                 </h1>
             </div>
         </div>
+        <div id="page2">
+            <div id="page2-content">
+                <div id="page2-text">
+                    <h3>Tommorow's Brand, Today™</h3>
+                    <h3>Paris / San Diego</h3>
+                </div>
+                <div id="page2-heading">
+                    <h1>
+                        <p class="line1">
+                            We are a venture firm
+                            and digital agency. Our
+                        </p>
+                        <p class="line2">is to transform founders' visions into</p>
+                        <p class="line3">remarkable brands. Choose traditional</p>
+                        <p class="line4">
+                            compensation or an equity offset through our
+                        </p>
+                        <p class="line5">
+                            Venture Model — your vision, your decision.
+                        </p>
+                    </h1>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
