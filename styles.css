@@ -18,7 +18,7 @@ html,body {
 }
 body{
     background-color: #eee;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 #page1{
     height: 100vh;
@@ -87,7 +87,7 @@ nav h4{
     font-size: 26vw;
     font-weight: 100;
     color: #fdfcfc;
-    line-height: 49vw;
+    line-height: 23vw;
     align-items: center;
 }
 #page1-content h1 span{
@@ -105,7 +105,7 @@ nav h4{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding: 70px 44px;
+    padding: 56px 44px;
 }
 #page2-text {
   display: flex;
@@ -132,4 +132,30 @@ nav h4{
     font-size: 4vw;
     font-weight: 100;
     letter-spacing: 1.5px;
+}
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+}
+#page3-top{
+    /* background-color: red; */
+    text-align: center;
+}
+#page3-top h4{
+    margin-bottom: 1vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#page3-top h4 span{
+    font-size: 0.7vw;
+    background-color: black;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+#page3-top h2{
+    font-size: 3.5vw;
+    font-weight: 500;
 }
