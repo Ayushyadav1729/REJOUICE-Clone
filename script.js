@@ -1,3 +1,5 @@
+/*script for locomotivScroll*/ 
+
 function locoscroll(){
     gsap.registerPlugin(ScrollTrigger);
 
@@ -36,6 +38,8 @@ ScrollTrigger.refresh();
 
 locoscroll();
 
+/* Script for 1st cursor*/
+
 function cursorEffect(){
     var page1Content = document.querySelector("#page1-content")
 var cursor = document.querySelector("#cursor")
@@ -61,7 +65,8 @@ page1Content.addEventListener("mouseleave",function(){
 })
 }
 cursorEffect();
-
+/*script for page2
+ */
 function page2Animation() {
     var tl = gsap.timeline();
     tl.from("#page2-text h3",{
@@ -98,7 +103,7 @@ page2Animation();
 
 
 
-
+/* Script for 2nd cursor*/
 
 function cursorEffect2(){
     var page4 = document.querySelector("#page4-item")
@@ -126,7 +131,7 @@ page4.addEventListener("mouseleave",function(){
 }
 cursorEffect2();
 
-
+/* Script using swipperjs for slider*/ 
 
 function sliderAnimation(){
     var swiper = new Swiper(".mySwiper", {
@@ -140,3 +145,32 @@ function sliderAnimation(){
     });
 }
 sliderAnimation()
+
+/* Script for loader */
+ var tl = gsap.timeline()
+
+ tl.from("#loader h3",{
+    x:40,
+    opacity:0,
+    duration:1,
+    stagger:0.1
+ })
+ tl.to("#loader h3",{
+    opacity:0,
+    x:-40,
+    duration:1,
+    stagger:0.1
+ })
+ tl.to("#loader",{
+    opacity:0
+ })
+  tl.from("#page1-content h1 span",{
+    y:100,
+    opacity:0,
+    stagger:0.1,
+    durationo:0.5,
+    delay:-0.5
+ })
+  tl.to("#loader",{
+    display:"none"
+ })
