@@ -95,3 +95,48 @@ function page2Animation() {
   });
 }
 page2Animation();
+
+
+
+
+
+function cursorEffect2(){
+    var page4 = document.querySelector("#page4-item")
+var cursor2 = document.querySelector("#cursor2")
+
+page4.addEventListener("mousemove",function(dets){
+    gsap.to(cursor2,{
+        x:dets.x,
+        y:dets.y,
+    })
+
+})
+page4.addEventListener("mouseenter",function(){
+    gsap.to(cursor2,{
+        scale:1,
+        opacity:1
+    })
+})
+page4.addEventListener("mouseleave",function(){
+    gsap.to(cursor2,{
+        scale:0,
+        opacity:0
+    })
+})
+}
+cursorEffect2();
+
+
+
+function sliderAnimation(){
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+}
+sliderAnimation()
