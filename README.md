@@ -1,4 +1,4 @@
-# 🎯 Rejouice Clone
+# <img width="50" height="50" alt="android-chrome-192x192" src="https://github.com/user-attachments/assets/b5d3924e-5591-4205-858d-a072d44e6c2f" /> Rejouice Clone
 
 A modern **frontend clone** of the award-winning [Rejouice](https://rejouice.com) website, built to practice smooth animations, creative layouts, and clean responsive design.
 
